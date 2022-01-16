@@ -1,1 +1,700 @@
-{"version":2,"type":"profile","profile":{"id":3,"name":"Moderation","description":"Settings that apply when you are a moderator of the current channel.\nImported at 14/08/2021 14:08:32.","context":[{"type":"Moderator","data":true}]},"toggled":true,"values":{"chat.actions.room-above":true,"chat.actions.reasons":[{"v":{"text":"Rude behavior"},"id":"1617653772818-0.009207386725802902-1"},{"v":{"text":"Rude behavior in another language"},"id":"1617653780503-0.47102102501466847-2"},{"v":{"text":"Inappropriate behavior"},"id":"1617653792494-0.29265275667504964-3"},{"v":{"text":"Inappropriate behavior in another language"},"id":"1617653802625-0.07294351435654667-4"},{"v":{"text":"Self promotion"},"id":"1617653880205-0.29751845582639125-5"},{"v":{"text":"Spam (repeat messages, Unicode art, etc.)"},"id":"1617653883066-0.0784227714407606-6"},{"v":{"text":"Stream or queue sniping, or threat of"},"id":"1617653890730-0.754438025036829-7"},{"v":{"text":"Trolling, baiting, or lying"},"id":"1617653896639-0.35727109973807947-8"},{"v":{"text":"Alternate account, bypassing timeout or ban"},"id":"1617653906378-0.8211177527731754-9"},{"v":{"text":"Instigating an argument"},"id":"1617653976556-0.7398782161281867-10"},{"v":{"text":"Ignoring user, moderator, or streamer responses or notices"},"id":"1617653979880-0.48805714124356214-11"},{"v":{"text":"Leaks, spoilers, announcing unreleased content"}}],"chat.actions.room":[{"t":"inherit","id":"1617848065358-0.44265708645815494-1"},{"v":{"action":"chat","appearance":{"type":"combo","text":"Follower","icon":"ffz-i-lock","color":"#D0021B","tooltip":"Enable Follower Only Mode"},"options":{"command":"/followers 1"},"display":{"followersOnly":false,"mod":true}},"id":"1617653502491-0.9671249030172084-1"},{"v":{"action":"chat","appearance":{"type":"combo","text":"Followers","icon":"ffz-fa fa-unlock","tooltip":"Disable Followers Only Mode","color":"#417505"},"options":{"command":"/followersoff"},"display":{"followersOnly":true,"mod":true}},"id":"1617653555822-0.14175764494453702-2"},{"v":{"action":"chat","appearance":{"type":"combo","text":"Unique","icon":"ffz-i-lock","color":"#D0021B","tooltip":"Enable Unique Chat"},"options":{"command":"/uniquechat"},"display":{"mod":true,"r9kMode":false}},"id":"1621646033026-0.13555535435255917-2"},{"v":{"action":"chat","appearance":{"type":"combo","text":"Unique","icon":"ffz-i-lock-open","color":"#417505","tooltip":"Disable Unique Chat"},"options":{"command":"/uniquechatoff"},"display":{"mod":true,"r9kMode":true}},"id":"1621646084778-0.0077152507172055795-3"},{"v":{"action":"open_url","appearance":{"type":"icon","text":"C","icon":"ffz-i-language","color":"#417505","tooltip":"Open Translate"},"options":{"url":"https://translate.google.com/?sl=auto&tl=en&op=translate"},"display":{}},"id":"1621645964424-0.18878344016544957-0"}],"addon.repetition_detector.repetitions_threshold":3,"modtools.highlight-color":"rgba(189, 16, 224, 0.25)","addon.repetition_detector.cache_ttl":1800,"chat.timestamp-format":"HH:mm:ss","ffzap.core.highlight_sound_type_term":true,"chat.actions.user-context":[{"v":{"type":"space"},"id":"1629004147431-0.5711764135991277-0"},{"v":{"action":"timeout","appearance":{"type":"combo","icon":"ffz-i-clock","text":"10m","color":"#F8E71C","tooltip":"10 Minute Timeout"},"display":{"mod":true},"options":{}},"id":"1617655319303-0.7638338322605425-15"},{"v":{"action":"timeout","appearance":{"type":"combo","icon":"ffz-i-clock","text":"1h","color":"#F8E71C","tooltip":"1 Hour Timeout"},"display":{"mod":true},"options":{"duration_rich":"3600","duration":3600}},"id":"1617655364689-0.2862485557188472-16"},{"v":{"action":"timeout","appearance":{"type":"combo","icon":"ffz-i-clock","text":"12h","color":"#F8E71C","tooltip":"12 Hour Timeout"},"display":{"mod":true},"options":{"duration_rich":"43200","duration":43200}},"id":"1617655367716-0.43158889911405396-17"},{"v":{"action":"timeout","appearance":{"type":"combo","icon":"ffz-i-clock","text":"1d","color":"#F8E71C","tooltip":"1 Day Timeout"},"display":{"mod":true},"options":{"duration_rich":"86400","duration":86400}},"id":"1617655691136-0.2627809912921326-19"},{"v":{"type":"space"},"id":"1629004158131-0.21846448382584227-1"},{"v":{"type":"new-line"},"id":"1617656029402-0.13627162294309136-24"},{"v":{"type":"space"},"id":"1629004175383-0.7680557567404922-2"},{"v":{"action":"timeout","appearance":{"type":"combo","icon":"ffz-i-clock","text":"3d","color":"#F5A623","tooltip":"3 Day Timeout"},"display":{"mod":true},"options":{"duration_rich":"259200","duration":259200}},"id":"1617731646536-0.43438363322685847-0"},{"v":{"action":"timeout","appearance":{"type":"combo","icon":"ffz-i-clock","text":"1w","color":"#F5A623","tooltip":"1 Week Timeout"},"display":{"mod":true},"options":{"duration_rich":"604800","duration":604800}},"id":"1617655747726-0.2704557258076561-20"},{"v":{"action":"timeout","appearance":{"type":"combo","icon":"ffz-i-clock","text":"2w","color":"#F5A623","tooltip":"2 Week (14-day) Timeout"},"display":{"mod":true},"options":{"duration_rich":"1209600","duration":1209600}},"id":"1617655796622-0.960141058256839-21"},{"v":{"type":"space"},"id":"1629004185080-0.3711002168654598-3"},{"v":{"type":"new-line"},"id":"1617656151479-0.8878113601530975-27"},{"v":{"type":"space"},"id":"1629004191937-0.30774150846025927-4"},{"v":{"action":"ban","appearance":{"type":"combo","icon":"ffz-i-block","tooltip":"Ban","color":"#ff0000","text":"Ban"},"display":{"mod":true},"options":{}},"id":"1617656043482-0.40024772782350126-25"},{"v":{"action":"ban","appearance":{"type":"combo","icon":"ffz-i-block","tooltip":"Ban","color":"#ff0000","text":"ToS"},"display":{"mod":true},"options":{"reason":"Twitch Terms of Service violating behavior."}},"id":"1617656094013-0.3249017086437307-26"},{"v":{"type":"space"},"id":"1629004352722-0.13106535960396348-6"},{"v":{"type":"new-line"},"id":"1629004364824-0.863006272683178-7"},{"v":{"type":"space"},"id":"1629004367070-0.6278926275688974-8"},{"v":{"action":"highlight","appearance":{"type":"combo","icon":"ffz-i-eye","color":"#9013FE","text":"Highlight"},"options":{},"display":{}},"id":"1629004386130-0.3567692535067666-9"},{"v":{"action":"open_url","appearance":{"type":"combo","icon":"ffz-i-language","text":"Translate","color":"#417505","tooltip":"Translate"},"options":{"url":"https://translate.google.com/?hl=en-US&tab=wT1#view=home&op=translate&sl=auto&tl=en&text={{message.text}}"},"display":{}},"id":"1629004395973-0.023414075845712645-10"},{"v":{"type":"space"},"id":"1629004399230-0.6286445229253865-11"}],"addon.repetition_detector.text_color":"#F5A623","chat.actions.inline":[{"v":{"action":"highlight","appearance":{"type":"icon","text":"","color":"#9013FE","icon":"ffz-i-eye","tooltip":"Highlight {{user.displayName}}"},"options":{},"display":{"mod":true}},"id":"1621715501631-0.1534863799131605-3"},{"v":{"action":"msg_delete","appearance":{"type":"icon","icon":"ffz-i-trash","color":"#F8E71C"},"display":{"mod":true,"deleted":false},"options":{}},"id":"1617654042945-0.4337261590414101-3"},{"v":{"action":"open_url","appearance":{"type":"icon","icon":"ffz-i-language","color":"#417505","tooltip":"Translate message"},"options":{"url":"https://translate.google.com/?hl=en-US&tab=wT1#view=home&op=translate&sl=auto&tl=en&text={{message.text}}"},"display":{"keys":0,"hover":false,"deleted":false}},"id":"1619717683253-0.5180229071489604-0"},{"v":{"action":"timeout","appearance":{"type":"icon","icon":"ffz-fa fa-exclamation-triangle","tooltip":"Warn {{user.displayName}}","color":"#F57E23"},"display":{"mod":true,"deleted":false,"hover":false,"keys":0},"options":{"duration_rich":"15","duration":15,"reason":"Warning"}},"id":"1617727180311-0.7524055418625364-1"},{"v":{"action":"chat","appearance":{"type":"text","text":"S","tooltip":"Spanish","color":"#F8E71C"},"options":{"command":"@{{user.displayName}} Solo inglés por favor. English only, please."},"display":{"mod":true,"deleted":true}},"id":"1617654410313-0.18158999941040177-5"},{"v":{"action":"chat","appearance":{"type":"text","text":"F","tooltip":"French","color":"#4A90E2"},"options":{"command":"@{{user.displayName}} Anglais seulement s'il vous plait. English only, please."},"display":{"mod":true,"deleted":true}},"id":"1617654412173-0.7724861164765531-6"},{"v":{"action":"chat","appearance":{"type":"text","text":"P","tooltip":"Portuguese","color":"#417505"},"options":{"command":"@{{user.displayName}} Só inglês, por favor. English only, please."},"display":{"mod":true,"deleted":true}},"id":"1617654413339-0.2312304414331834-7"},{"v":{"action":"chat","appearance":{"type":"text","text":"R","tooltip":"Russian","color":"#D0021B"},"options":{"command":"@{{user.displayName}} Будь добрым. Только английский. Be kind. English only."},"display":{"mod":true,"deleted":true}},"id":"1617654414534-0.3649139227107492-8"},{"v":{"action":"chat","appearance":{"type":"text","text":"A","tooltip":"Arabic","color":"#4A4A4A"},"options":{"command":"@{{user.displayName}} انجليزي فقط من فضلك. English only, please."},"display":{"mod":true,"deleted":true}},"id":"1617654416127-0.3971222630950415-9"},{"v":{"action":"chat","appearance":{"type":"text","text":"C","tooltip":"Chinese","color":"#D0021B"},"options":{"command":"@{{user.displayName}} 仅限英语。 谢谢你。 English only. Thank you."},"display":{"mod":true,"deleted":true}},"id":"1617654417443-0.20297105300312457-10"},{"v":{"action":"chat","appearance":{"type":"text","text":"J","tooltip":"Japanese","color":"#FFFFFF"},"options":{"command":"@{{user.displayName}} 英語だけ。 ありがとうございました。 English only. Thank you."},"display":{"mod":true,"deleted":true}},"id":"1617654418798-0.025346199226705668-11"},{"v":{"action":"chat","appearance":{"type":"text","text":"P","tooltip":"Persian","color":"#7ED321"},"options":{"command":"@{{user.displayName}} فقط انگلیسی. متشکرم. English only. Thank you."},"display":{"mod":true,"deleted":true}},"id":"1617654419881-0.2498021316031942-12"},{"v":{"action":"chat","appearance":{"type":"text","text":"I","tooltip":"Italian","color":"#417505"},"options":{"command":"@{{user.displayName}} Soltanto inglese. Grazie. English only. Thank you."},"display":{"mod":true,"deleted":true}},"id":"1617654421203-0.3136508944246401-13"},{"v":{"action":"chat","appearance":{"type":"text","text":"G","tooltip":"German","color":"#F5A623"},"options":{"command":"@{{user.displayName}} Bitte nur Englisch. English only, please."},"display":{"mod":true,"deleted":true}},"id":"1617654780406-0.2228464479647454-14"},{"v":{"action":"chat","appearance":{"type":"text","text":"T","tooltip":"Turkish","color":"#D0021B"},"options":{"command":"@{{user.displayName}} Sadece ingilizce lütfen. English only, please."},"display":{"mod":true,"deleted":true}},"id":"1618271580949-0.3259648614736901-0"}],"addon.repetition_detector.similarity_threshold":70}}
+{
+	"version": 2,
+	"type": "profile",
+	"profile": {
+		"id": 3,
+		"name": "Moderation",
+		"description": "Settings that apply when you are a moderator of the current channel.\nImported at 14/08/2021 14:08:32.",
+		"context": [{
+			"type": "Moderator",
+			"data": true
+		}]
+	},
+	"toggled": true,
+	"values": {
+		"chat.actions.room-above": true,
+		"chat.actions.reasons": [{
+			"v": {
+				"text": "Rude behavior"
+			},
+			"id": "1617653772818-0.009207386725802902-1"
+		}, {
+			"v": {
+				"text": "Rude behavior in another language"
+			},
+			"id": "1617653780503-0.47102102501466847-2"
+		}, {
+			"v": {
+				"text": "Inappropriate behavior"
+			},
+			"id": "1617653792494-0.29265275667504964-3"
+		}, {
+			"v": {
+				"text": "Inappropriate behavior in another language"
+			},
+			"id": "1617653802625-0.07294351435654667-4"
+		}, {
+			"v": {
+				"text": "Self promotion"
+			},
+			"id": "1617653880205-0.29751845582639125-5"
+		}, {
+			"v": {
+				"text": "Spam (repeat messages, Unicode art, etc.)"
+			},
+			"id": "1617653883066-0.0784227714407606-6"
+		}, {
+			"v": {
+				"text": "Stream or queue sniping, or threat of"
+			},
+			"id": "1617653890730-0.754438025036829-7"
+		}, {
+			"v": {
+				"text": "Trolling, baiting, or lying"
+			},
+			"id": "1617653896639-0.35727109973807947-8"
+		}, {
+			"v": {
+				"text": "Alternate account, bypassing timeout or ban"
+			},
+			"id": "1617653906378-0.8211177527731754-9"
+		}, {
+			"v": {
+				"text": "Instigating an argument"
+			},
+			"id": "1617653976556-0.7398782161281867-10"
+		}, {
+			"v": {
+				"text": "Ignoring user, moderator, or streamer responses or notices"
+			},
+			"id": "1617653979880-0.48805714124356214-11"
+		}, {
+			"v": {
+				"text": "Leaks, spoilers, announcing unreleased content"
+			}
+		}],
+		"chat.actions.room": [{
+			"t": "inherit",
+			"id": "1617848065358-0.44265708645815494-1"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "combo",
+					"text": "Follower",
+					"icon": "ffz-i-lock",
+					"color": "#D0021B",
+					"tooltip": "Enable Follower Only Mode"
+				},
+				"options": {
+					"command": "/followers 1"
+				},
+				"display": {
+					"followersOnly": false,
+					"mod": true
+				}
+			},
+			"id": "1617653502491-0.9671249030172084-1"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "combo",
+					"text": "Followers",
+					"icon": "ffz-fa fa-unlock",
+					"tooltip": "Disable Followers Only Mode",
+					"color": "#417505"
+				},
+				"options": {
+					"command": "/followersoff"
+				},
+				"display": {
+					"followersOnly": true,
+					"mod": true
+				}
+			},
+			"id": "1617653555822-0.14175764494453702-2"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "combo",
+					"text": "Unique",
+					"icon": "ffz-i-lock",
+					"color": "#D0021B",
+					"tooltip": "Enable Unique Chat"
+				},
+				"options": {
+					"command": "/uniquechat"
+				},
+				"display": {
+					"mod": true,
+					"r9kMode": false
+				}
+			},
+			"id": "1621646033026-0.13555535435255917-2"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "combo",
+					"text": "Unique",
+					"icon": "ffz-i-lock-open",
+					"color": "#417505",
+					"tooltip": "Disable Unique Chat"
+				},
+				"options": {
+					"command": "/uniquechatoff"
+				},
+				"display": {
+					"mod": true,
+					"r9kMode": true
+				}
+			},
+			"id": "1621646084778-0.0077152507172055795-3"
+		}, {
+			"v": {
+				"action": "open_url",
+				"appearance": {
+					"type": "icon",
+					"text": "C",
+					"icon": "ffz-i-language",
+					"color": "#417505",
+					"tooltip": "Open Translate"
+				},
+				"options": {
+					"url": "https://translate.google.com/?sl=auto&tl=en&op=translate"
+				},
+				"display": {}
+			},
+			"id": "1621645964424-0.18878344016544957-0"
+		}],
+		"addon.repetition_detector.repetitions_threshold": 3,
+		"modtools.highlight-color": "rgba(189, 16, 224, 0.25)",
+		"addon.repetition_detector.cache_ttl": 1800,
+		"chat.timestamp-format": "HH:mm:ss",
+		"ffzap.core.highlight_sound_type_term": true,
+		"chat.actions.user-context": [{
+			"v": {
+				"type": "space"
+			},
+			"id": "1629004147431-0.5711764135991277-0"
+		}, {
+			"v": {
+				"action": "timeout",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-clock",
+					"text": "10m",
+					"color": "#F8E71C",
+					"tooltip": "10 Minute Timeout"
+				},
+				"display": {
+					"mod": true
+				},
+				"options": {}
+			},
+			"id": "1617655319303-0.7638338322605425-15"
+		}, {
+			"v": {
+				"action": "timeout",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-clock",
+					"text": "1h",
+					"color": "#F8E71C",
+					"tooltip": "1 Hour Timeout"
+				},
+				"display": {
+					"mod": true
+				},
+				"options": {
+					"duration_rich": "3600",
+					"duration": 3600
+				}
+			},
+			"id": "1617655364689-0.2862485557188472-16"
+		}, {
+			"v": {
+				"action": "timeout",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-clock",
+					"text": "12h",
+					"color": "#F8E71C",
+					"tooltip": "12 Hour Timeout"
+				},
+				"display": {
+					"mod": true
+				},
+				"options": {
+					"duration_rich": "43200",
+					"duration": 43200
+				}
+			},
+			"id": "1617655367716-0.43158889911405396-17"
+		}, {
+			"v": {
+				"action": "timeout",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-clock",
+					"text": "1d",
+					"color": "#F8E71C",
+					"tooltip": "1 Day Timeout"
+				},
+				"display": {
+					"mod": true
+				},
+				"options": {
+					"duration_rich": "86400",
+					"duration": 86400
+				}
+			},
+			"id": "1617655691136-0.2627809912921326-19"
+		}, {
+			"v": {
+				"type": "space"
+			},
+			"id": "1629004158131-0.21846448382584227-1"
+		}, {
+			"v": {
+				"type": "new-line"
+			},
+			"id": "1617656029402-0.13627162294309136-24"
+		}, {
+			"v": {
+				"type": "space"
+			},
+			"id": "1629004175383-0.7680557567404922-2"
+		}, {
+			"v": {
+				"action": "timeout",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-clock",
+					"text": "3d",
+					"color": "#F5A623",
+					"tooltip": "3 Day Timeout"
+				},
+				"display": {
+					"mod": true
+				},
+				"options": {
+					"duration_rich": "259200",
+					"duration": 259200
+				}
+			},
+			"id": "1617731646536-0.43438363322685847-0"
+		}, {
+			"v": {
+				"action": "timeout",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-clock",
+					"text": "1w",
+					"color": "#F5A623",
+					"tooltip": "1 Week Timeout"
+				},
+				"display": {
+					"mod": true
+				},
+				"options": {
+					"duration_rich": "604800",
+					"duration": 604800
+				}
+			},
+			"id": "1617655747726-0.2704557258076561-20"
+		}, {
+			"v": {
+				"action": "timeout",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-clock",
+					"text": "2w",
+					"color": "#F5A623",
+					"tooltip": "2 Week (14-day) Timeout"
+				},
+				"display": {
+					"mod": true
+				},
+				"options": {
+					"duration_rich": "1209600",
+					"duration": 1209600
+				}
+			},
+			"id": "1617655796622-0.960141058256839-21"
+		}, {
+			"v": {
+				"type": "space"
+			},
+			"id": "1629004185080-0.3711002168654598-3"
+		}, {
+			"v": {
+				"type": "new-line"
+			},
+			"id": "1617656151479-0.8878113601530975-27"
+		}, {
+			"v": {
+				"type": "space"
+			},
+			"id": "1629004191937-0.30774150846025927-4"
+		}, {
+			"v": {
+				"action": "ban",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-block",
+					"tooltip": "Ban",
+					"color": "#ff0000",
+					"text": "Ban"
+				},
+				"display": {
+					"mod": true
+				},
+				"options": {}
+			},
+			"id": "1617656043482-0.40024772782350126-25"
+		}, {
+			"v": {
+				"action": "ban",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-block",
+					"tooltip": "Ban",
+					"color": "#ff0000",
+					"text": "ToS"
+				},
+				"display": {
+					"mod": true
+				},
+				"options": {
+					"reason": "Twitch Terms of Service violating behavior."
+				}
+			},
+			"id": "1617656094013-0.3249017086437307-26"
+		}, {
+			"v": {
+				"type": "space"
+			},
+			"id": "1629004352722-0.13106535960396348-6"
+		}, {
+			"v": {
+				"type": "new-line"
+			},
+			"id": "1629004364824-0.863006272683178-7"
+		}, {
+			"v": {
+				"type": "space"
+			},
+			"id": "1629004367070-0.6278926275688974-8"
+		}, {
+			"v": {
+				"action": "highlight",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-eye",
+					"color": "#9013FE",
+					"text": "Highlight"
+				},
+				"options": {},
+				"display": {}
+			},
+			"id": "1629004386130-0.3567692535067666-9"
+		}, {
+			"v": {
+				"action": "open_url",
+				"appearance": {
+					"type": "combo",
+					"icon": "ffz-i-language",
+					"text": "Translate",
+					"color": "#417505",
+					"tooltip": "Translate"
+				},
+				"options": {
+					"url": "https://translate.google.com/?hl=en-US&tab=wT1#view=home&op=translate&sl=auto&tl=en&text={{message.text}}"
+				},
+				"display": {}
+			},
+			"id": "1629004395973-0.023414075845712645-10"
+		}, {
+			"v": {
+				"type": "space"
+			},
+			"id": "1629004399230-0.6286445229253865-11"
+		}],
+		"addon.repetition_detector.text_color": "#F5A623",
+		"chat.actions.inline": [{
+			"v": {
+				"action": "highlight",
+				"appearance": {
+					"type": "icon",
+					"text": "",
+					"color": "#9013FE",
+					"icon": "ffz-i-eye",
+					"tooltip": "Highlight {{user.displayName}}"
+				},
+				"options": {},
+				"display": {
+					"mod": true
+				}
+			},
+			"id": "1621715501631-0.1534863799131605-3"
+		}, {
+			"v": {
+				"action": "msg_delete",
+				"appearance": {
+					"type": "icon",
+					"icon": "ffz-i-trash",
+					"color": "#F8E71C"
+				},
+				"display": {
+					"mod": true,
+					"deleted": false
+				},
+				"options": {}
+			},
+			"id": "1617654042945-0.4337261590414101-3"
+		}, {
+			"v": {
+				"action": "open_url",
+				"appearance": {
+					"type": "icon",
+					"icon": "ffz-i-language",
+					"color": "#417505",
+					"tooltip": "Translate message"
+				},
+				"options": {
+					"url": "https://translate.google.com/?hl=en-US&tab=wT1#view=home&op=translate&sl=auto&tl=en&text={{message.text}}"
+				},
+				"display": {
+					"keys": 0,
+					"hover": false,
+					"deleted": false
+				}
+			},
+			"id": "1619717683253-0.5180229071489604-0"
+		}, {
+			"v": {
+				"action": "timeout",
+				"appearance": {
+					"type": "icon",
+					"icon": "ffz-fa fa-exclamation-triangle",
+					"tooltip": "Warn {{user.displayName}}",
+					"color": "#F57E23"
+				},
+				"display": {
+					"mod": true,
+					"deleted": false,
+					"hover": false,
+					"keys": 0
+				},
+				"options": {
+					"duration_rich": "15",
+					"duration": 15,
+					"reason": "Warning"
+				}
+			},
+			"id": "1617727180311-0.7524055418625364-1"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "S",
+					"tooltip": "Spanish",
+					"color": "#F8E71C"
+				},
+				"options": {
+					"command": "@{{user.displayName}} Solo inglés por favor. English only, please."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1617654410313-0.18158999941040177-5"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "F",
+					"tooltip": "French",
+					"color": "#4A90E2"
+				},
+				"options": {
+					"command": "@{{user.displayName}} Anglais seulement s'il vous plait. English only, please."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1617654412173-0.7724861164765531-6"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "P",
+					"tooltip": "Portuguese",
+					"color": "#417505"
+				},
+				"options": {
+					"command": "@{{user.displayName}} Só inglês, por favor. English only, please."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1617654413339-0.2312304414331834-7"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "R",
+					"tooltip": "Russian",
+					"color": "#D0021B"
+				},
+				"options": {
+					"command": "@{{user.displayName}} Будь добрым. Только английский. Be kind. English only."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1617654414534-0.3649139227107492-8"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "A",
+					"tooltip": "Arabic",
+					"color": "#4A4A4A"
+				},
+				"options": {
+					"command": "@{{user.displayName}} انجليزي فقط من فضلك. English only, please."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1617654416127-0.3971222630950415-9"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "C",
+					"tooltip": "Chinese",
+					"color": "#D0021B"
+				},
+				"options": {
+					"command": "@{{user.displayName}} 仅限英语。 谢谢你。 English only. Thank you."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1617654417443-0.20297105300312457-10"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "J",
+					"tooltip": "Japanese",
+					"color": "#FFFFFF"
+				},
+				"options": {
+					"command": "@{{user.displayName}} 英語だけ。 ありがとうございました。 English only. Thank you."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1617654418798-0.025346199226705668-11"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "P",
+					"tooltip": "Persian",
+					"color": "#7ED321"
+				},
+				"options": {
+					"command": "@{{user.displayName}} فقط انگلیسی. متشکرم. English only. Thank you."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1617654419881-0.2498021316031942-12"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "I",
+					"tooltip": "Italian",
+					"color": "#417505"
+				},
+				"options": {
+					"command": "@{{user.displayName}} Soltanto inglese. Grazie. English only. Thank you."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1617654421203-0.3136508944246401-13"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "G",
+					"tooltip": "German",
+					"color": "#F5A623"
+				},
+				"options": {
+					"command": "@{{user.displayName}} Bitte nur Englisch. English only, please."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1617654780406-0.2228464479647454-14"
+		}, {
+			"v": {
+				"action": "chat",
+				"appearance": {
+					"type": "text",
+					"text": "T",
+					"tooltip": "Turkish",
+					"color": "#D0021B"
+				},
+				"options": {
+					"command": "@{{user.displayName}} Sadece ingilizce lütfen. English only, please."
+				},
+				"display": {
+					"mod": true,
+					"deleted": true
+				}
+			},
+			"id": "1618271580949-0.3259648614736901-0"
+		}],
+		"addon.repetition_detector.similarity_threshold": 70
+	}
+}
