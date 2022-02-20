@@ -560,7 +560,7 @@
 					"color": "#D0021B"
 				},
 				"options": {
-					"command": "@{{user.displayName}} Будь добрым. Только английский. Be kind. English only."
+					"command": "@{{user.displayName}} Только на английском, пожалуйста. English only please."
 				},
 				"display": {
 					"mod": true,
@@ -596,7 +596,7 @@
 					"color": "#D0021B"
 				},
 				"options": {
-					"command": "@{{user.displayName}} 仅限英语。 谢谢你。 English only. Thank you."
+					"command": "@{{user.displayName}} 請僅使用英語。 Please use English only."
 				},
 				"display": {
 					"mod": true,
