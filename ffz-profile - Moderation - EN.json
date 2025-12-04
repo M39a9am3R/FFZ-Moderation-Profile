@@ -412,7 +412,7 @@
 					"tooltip": "Translate"
 				},
 				"options": {
-					"url": "https://translate.google.com/?hl=en-US&tab=wT1#view=home&op=translate&sl=auto&tl=en&text={{message.text}}"
+					"url": "https://translate.google.com/?hl=en-US&tab=wT1&op=translate&sl=auto&tl=en&text={{message.text}}"
 				},
 				"display": {}
 			},
